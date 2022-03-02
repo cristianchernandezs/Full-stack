@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="screen and (max-width:768px)" href="css/mobile.css">
+  <title>G'hetnos | Bienvenidos</title>
+</head>
+
+<body>
+  <header id="main-header">
+    <div class="container">
+      <!-- start nav -->
+      <nav id="menu" >
+        <!-- start menu -->
+        <ul>
+          <li><a href="#">Acerca de</a></li>
+          <li><a href="#">Productos</a>
+            <!-- start menu desplegable -->
+            <ul>
+              <li><a href="#">Gama alta</a></li>
+              <li><a href="#">Gama media</a></li>
+              <li><a href="#">Gama baja</a></li> 
+            </ul>
+            <!-- end menu desplegable -->
+          </li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Ubicacion</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+        <!-- end menu -->
+      </nav>
+      <!-- end nav -->
+      <p class="logo">
+        <font face="brush script MT">G'hetnos</font>
+      </p>
+      
+      
+      
+        
+    </div>
+  </header>
+
+  <section id="description">
+    <div class="container">
+        <div class="logotipo">
+          <img src="img/Logo G´hetos.jpeg" width="320"  />
+      </div>
+      <h2 class="display-2">¡Se vale soñar! <p>primer maquetado de la clase de full stack,usando HTML y CSS. <br>
+        basados en g'hetnos un emprendimiento  nacido en la adversidad de la pandemia.</p>
+      </h2>
+      <div class="description-row">
+        <div class="description-box">
+          <img src="img/icon-1.png" alt="">
+          <h4>Compra online</h4>
+          <p>Catalogo de todos los productos, junto con las mejores ofertas limitadas a tu alcance 24/7.</p>
+        </div>
+        <div class="description-box">
+          <img src="img/icon-2.png" alt="">
+          <h4>Tiendas </h4>
+          <p>Todos los puntos de venta, la mejor atencion y el mejor servicio.</p>
+        </div>
+        <div class="description-box">
+          <img src="img/icon-3.png" alt="">
+          <h4>Atencion al publico</h4>
+          <p>Horarios de atencion puntos fisicos: <br>domingo a domingo <br> 10 a.m a 9 p.m </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonial">
+    <div class="container">
+      <h2>Noticias y Publicidad</h2>
+      <div class="about-image">
+        <img src="img/81.png" width="50">
+      </div>
+      <br>
+      <p>Resumir los 81 años de historia de Independiente Santa Fe no es fácil, no será simple hablar de las hazañas, los triunfos o derrotas del primer campeón colombiano en un poco más de 300 caracteres. Es más siendo sinceros sabemos que incluso los libros se quedan cortos para describir la historia del equipo bogotano. <br>
+        Independiente Santa Fe fue fundado en 1941, el 28 de febrero en la capital colombiana y en un céntrico café conocido como el Rhin. Eso es algo que conocemos los hinchas cardenales es más podría asegurar que eso viene en los genes y que los hinchas lo sabemos antes incluso de aprender la palabra mamá. Fundado por ex alumnos del Gimnasio Moderno y en un principio creado para compartir en sus ratos de ocio cuando el deporte rey, era amateur y lejos aún de ser un deporte con torneo oficial.  <br>
+      </p>
+      <p class="customer">Bogota D.C</p>
+      <p>2022</p>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="container">
+      <div class="features-row">
+        <div class="features-box">
+          <img src="img/catalogo.jpg" alt="">
+          <h4>Catalogos</h4>
+          <p>todos nuestros productos a un solo clip</p>
+        </div>
+        <div class="features-box">
+          <img src="img/Logo G´hetos.jpeg" alt="">
+          <h4>Información de interes</h4>
+          <p>todo acerca de nuestra marca.</p>
+        </div>
+        <div class="features-box">
+          <img src="img/trabaja-con-nosotros.jpg.opdownload" alt="">
+          <h4>Trabaja con nosotros</h4>
+          <p>Has parte de nuestro equipo especializado.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+    
+      <div class="contact_form" >
+        <form style=" width: 50vw; margin-left : 25vw;"></form>
+      </form>
+        <div class="formulario">      
+          <h1>Para nosotros es importante brindarte la mejor atencion</h1>
+            <h3>Escríbenos y en breve nos pondremos en contacto contigo</h3>
+    
+    
+              <form action="submeter-formulario.php" method="post">       
+    
+                
+                    <p>
+                      <label for="nombre" class="colocar_nombre">Nombre
+                        <span class="obligatorio">*</span>
+                      </label>
+                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                    </p>
+                  
+                    <p>
+                      <label for="email" class="colocar_email">Email
+                        <span class="obligatorio">*</span>
+                      </label>
+                        <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                    </p>
+                
+                    <p>
+                      <label for="telefone" class="colocar_telefono">Teléfono
+                      </label>
+                        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                    </p>    
+                  
+                    <p>
+                      <label for="website" class="colocar_website">Sitio web
+                      </label>
+                        <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+                    </p>    
+                  
+                    <p>
+                      <label for="asunto" class="colocar_asunto">Asunto
+                        <span class="obligatorio">*</span>
+                      </label>
+                        <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                    </p>    
+                  
+                    <p>
+                      <label for="mensaje" class="colocar_mensaje">Mensaje
+                        <span class="obligatorio">*</span>
+                      </label>                     
+                                        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                    </p>                    
+                  
+                    <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+    
+                    <p class="aviso">
+                      <span class="obligatorio"> * </span>los campos son obligatorios.
+                    </p>          
+                
+              </form>
+        </div>  
+      </div>
+
+
+      
+   
+
+    </div>
+  </section>
+
+  <footer id="mainfooter">
+    <div class="footerimage">
+      <img src="img/instagram.png" width="50">
+      <img src="img/facebook.png" width="50">
+      <img src="img/gorjeo.png" width="50">
+      <img src="img/whatsapp.png" width="50">
+      <img src="img/github.png" width="50">
+    </div>
+    <p>♠ Cristian Hernández 2022 &copy;</p>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,427 @@
+* {
+ margin: 0; 
+ padding: 0;
+ box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 { font-size: 40px; }
+h2 { font-size: 32px; }
+h3 { font-size: 28px; }
+h4 { font-size: 24px; }
+h5 { font-size: 20px; }
+h6 { font-size: 16px; }
+
+p {
+  font-size: 16px;
+  line-height: 1.7em;
+  margin: 10px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Utility Classes */
+.container {
+  margin: auto;
+  max-width: 1300px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.display-1 {
+  font-style: italic;
+  color: #c22d66;
+  font-size: 88px;
+  font-weight: 300;
+}
+
+.display-2 {
+  font-size: 56px;
+  font-weight: 300;
+}
+
+.display-2 p {
+  font-size: 16px;
+  line-height: 1.7em;
+  margin: 10px 0;
+}
+
+.btn {
+  background: #2CBCF2;
+  color: #fff;
+  display: inline-block;
+  font-size: 15px;
+  padding: 12px 23px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  border-radius: 4px;
+}
+
+/* Header */
+#main-header {
+  background: url('../img/svg-curvo1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  color: #fff;
+  padding-top: 20px;
+}
+
+
+
+#main-header .logo {
+  
+  font-style: italic;
+  color: #080601;
+  font-size: 60px;
+  font-weight: 300;
+  text-align: left;
+  margin: 0px;
+  
+}
+
+/* menu */
+
+#menu ul {
+  float:right;
+  list-style:none;
+  margin: 0px;
+  padding:0;
+  
+ }
+ 
+ /* items del menu */
+ 
+
+ /* enlaces del menu */
+ 
+ #menu ul a {
+  display:block;
+  color:rgb(12, 0, 0);
+  text-decoration:none;
+  font-weight:400;
+  font-size:15px;
+  padding:10px;
+  font-family:"Arial";
+  text-transform:uppercase;
+  letter-spacing:1px;
+ }
+ 
+ /* items del menu */
+ 
+ #menu ul li {
+  position:relative;
+  float:left;
+  margin:0;
+  padding:0;
+ }
+ 
+ /* efecto al pasar el ratón por los items del menu */
+ 
+ #menu ul li:hover {
+  background:#4290a8;
+ }
+
+/* menu desplegable */
+
+#menu ul ul {
+  display:none;
+  position:absolute;
+  top:100%;
+  left:0;
+  background:rgb(29, 200, 223);
+  padding:0;
+ }
+ 
+ /* items del menu desplegable */
+ 
+ #menu ul ul li {
+  float:none;
+  width:150px
+ }
+ 
+ /* enlaces de los items del menu desplegable */
+ 
+ #menu ul ul a {
+  line-height:120%;
+  padding:10px 15px;
+ }
+ 
+ /* items del menu desplegable al pasar el ratón */
+ 
+ #menu ul li:hover > ul {
+  display:block;
+ }
+
+#main-header h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#main-header p {
+  width: 70%;
+  padding-bottom: 40px;
+}
+
+/* Description */
+
+#description {
+  padding-top: 0px;
+  padding-bottom: 100px;
+  text-align: center;
+
+}
+
+#logotipo {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.logotipo {
+  float: right;
+  width: 50%;
+  padding: 10px;
+}
+
+.description-logotipo img {
+  width: 0%;
+}
+
+
+#description h2 {
+  padding-bottom: 100px;
+}
+
+.description-row {
+  padding-top: 20px;
+}
+
+.description-box {
+  float: left;
+  width: 33%;
+  padding: 20px;
+}
+
+/* Testimonial */
+#testimonial {
+  background: url('../img/santafeFondo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+}
+
+#testimonial h4 {
+  padding-bottom: 40px;
+}
+
+#testimonial img {
+  border-radius: 50%;
+  padding-bottom: 20px;
+}
+
+#testimonial p {
+  width: 100%;
+  margin: 0 auto;
+  color: #ebe8e8;
+}
+
+#testimonial .customer {
+  padding-top: 20px;
+}
+
+/* Features */
+#features {
+  background: #f9f9f9;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.features-box {
+  float: left;
+  width: 33%;
+  padding: 25px;
+}
+
+.features-box img {
+  width: 100%;
+}
+
+/* About */
+#about {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.about-image {
+  float: left;
+  width: 50%;
+  padding: 80px;
+}
+
+.about-image img {
+  width: 50%;
+}
+
+.about-text {
+  float: right;
+  width: 50%;
+  padding: 150px 50px;
+}
+
+.about-text p {
+  padding-top: 20px;
+}
+
+/*formulario*/
+
+body{
+  height: 100%; 
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #ffffff; 
+  background-position: left;
+}
+
+
+.contact_form{  
+  text-align: left;
+  width: 460px; 
+  height: auto;
+  margin: 0px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
+  border-color: #3dd0e4; 
+}
+
+
+input{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #3dd0e4; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #3dd0e4; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+  float: center;  
+}
+
+
+button{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #3dd0e4; 
+  border-color: #3dd0e4; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+  cursor: pointer;
+}
+
+
+button p{
+  color: #fff; 
+}
+
+
+span{
+  color: #3dd0e4; 
+}
+
+
+.aviso{
+  font-size: 13px;  
+  color: #0e0e0e;  
+}
+
+
+h1{
+  font-size: 39px;  
+  text-align: letf; 
+  padding-bottom: 20px; 
+  color: #3dd0e4;
+}
+
+
+h3{
+  font-size: 16px; 
+  padding-bottom: 30px;
+  color: #0e0e0e;   
+}
+
+
+p{
+  font-size: 14px; 
+  color: #0e0e0e; 
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+/*end formulario*/
+
+/* Footer */
+#mainfooter {
+  background: #35abc9;
+  text-align: center;
+  padding: 60px;
+}
